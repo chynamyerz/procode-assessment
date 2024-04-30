@@ -1,0 +1,31 @@
+.add-item-form-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.add-item-form-container input,
+button {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: var(--default-boder-radius);
+}
+
+.add-item-form-container input {
+  border: 0.1rem solid #ccc;
+  box-sizing: border-box;
+}
+
+.add-item-form-container button {
+  background-color: #4caf50;
+  color: white;
+  border: 0.1rem solid transparent;
+  cursor: pointer;
+}
+
+.error-message {
+  font-family: Roboto;
+  font-size: var(--regular-font-size);
+  color: var(--danger-color);
+}

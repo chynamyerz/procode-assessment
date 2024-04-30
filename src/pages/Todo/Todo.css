@@ -1,0 +1,43 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.todo-container .title,
+.message {
+  font-family: Roboto;
+}
+
+.todo-container .title {
+  font-size: var(--large-font-size);
+}
+
+.todo-container .message {
+  font-size: var(--regular-font-size);
+}
+
+.todo-container .items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 360px) {
+  .todo-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .todo-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 761px) {
+  .todo-container {
+    width: 40%;
+  }
+}

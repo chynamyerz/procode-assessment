@@ -1,0 +1,24 @@
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0.2rem 0.2rem 0.2rem lightgray;
+  transition: 0.2s;
+  padding: 0.5rem;
+  border-radius: var(--default-boder-radius);
+  border: 0.1rem solid lightgray;
+}
+
+.item-container:hover {
+  box-shadow: 0.3rem 0.3rem 0.3rem lightgray;
+}
+
+.item-container p {
+  font-family: Roboto;
+  font-size: var(--regular-font-size);
+}
+
+.item-container .item-remove-icon {
+  color: var(--danger-color);
+  cursor: pointer;
+}
